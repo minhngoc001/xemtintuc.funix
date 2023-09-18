@@ -1,0 +1,35 @@
+@media (max-width: 500px) {
+  .general-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .goals-container .grid,
+  .team-container .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .scopes .flex,
+  .timeline .flex {
+    flex-direction: column;
+  }
+
+  .primary-container .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .fdc {
+    margin-bottom: 15px;
+  }
+
+  .number {
+    width: 50px;
+  }
+
+  .timeline {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
